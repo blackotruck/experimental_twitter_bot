@@ -1,0 +1,93 @@
+
+/*css reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* REGALANDO ILUSION MAIN-CSS*/
+
+/*
+	16 columns grid, 40px p/c
+	(all grid style must be here)
+*/
+
+.container
+{
+	width:940px;
+	margin:0 auto;
+}
+
+.span1{width:40px;}
+.span2{width:100px;}
+.span3{width:160px;}
+.span4{width:220px;}
+.span5{width:280px;}
+.span6{width:340px;}
+.span7{width:400px;}
+.span8{width:460px;}
+.span9{width:520px;}
+.span10{width:580px;}
+.span11{width:640px;}
+.span12{width:700px;}
+.span13{width:760px;}
+.span14{width:820px;}
+.span15{width:880px;}
+.span16{width:940px;}
+
+[class*="span"]
+{
+margin-left:20px;
+float:left;
+}
+
+.offset1{margin-left:80px;}
+.offset2{margin-left:140px;}
+.offset3{margin-left:200px;}
+.offset4{margin-left:260px;}
+.offset5{margin-left:320px;}
+.offset6{margin-left:380px;}
+.offset7{margin-left:440px;}
+.offset8{margin-left:500px;}
+.offset9{margin-left:560px;}
+.offset10{margin-left:620px;}
+.offset11{margin-left:680px;}
+.offset12{margin-left:740px;}
+.offset13{margin-left:800px;}
+.offset14{margin-left:860px;}
+.offset15{margin-left:920px;}
+.offset16{margin-left:980px;}
+
+
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table; 
+  line-height: 0;
+  content: "";
+}
+.row:after {
+  clear: both;
+}
+
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt40{margin-top:40px;}
+.mt50{margin-top:50px;}
+
+.titulo h1{font-size:42px;}
+
